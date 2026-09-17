@@ -1,0 +1,20 @@
+{
+  "task": "easy_semantic",
+  "type": "semantic",
+  "group": "tiers",
+  "points": 15.7,
+  "weight": 20,
+  "result": {
+    "metric": "mIoU",
+    "value": 0.7527342396671758,
+    "per_class_iou": {
+      "road": 0.9020677620556927,
+      "sidewalk": 0.39541907406017857,
+      "building": 0.7289369735234862,
+      "vegetation": 0.7831506924212484,
+      "sky": 0.9540966962752729
+    },
+    "coverage": 0.992087137484272
+  },
+  "review_flags": []
+}

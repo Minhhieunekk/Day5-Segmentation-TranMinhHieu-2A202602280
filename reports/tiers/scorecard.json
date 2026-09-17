@@ -1,0 +1,36 @@
+{
+  "total": 77.7,
+  "max": 82,
+  "group": "tiers",
+  "review_flags": [
+    "[hard_panoptic] REVIEW_HIGH_AGREEMENT: metric 1.000 >= 0.95; check reference version and export provenance manually."
+  ],
+  "tasks": {
+    "easy_semantic": {
+      "type": "semantic",
+      "group": "tiers",
+      "weight": 20,
+      "points": 15.7,
+      "value": 0.753,
+      "flags": []
+    },
+    "medium_instance": {
+      "type": "instance",
+      "group": "tiers",
+      "weight": 32,
+      "points": 32.0,
+      "value": 0.94,
+      "flags": []
+    },
+    "hard_panoptic": {
+      "type": "panoptic",
+      "group": "tiers",
+      "weight": 30,
+      "points": 30.0,
+      "value": 1.0,
+      "flags": [
+        "REVIEW_HIGH_AGREEMENT: metric 1.000 >= 0.95; check reference version and export provenance manually."
+      ]
+    }
+  }
+}

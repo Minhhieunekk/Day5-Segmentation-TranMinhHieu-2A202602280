@@ -1,0 +1,114 @@
+{
+  "task": "hard_panoptic",
+  "type": "panoptic",
+  "group": "tiers",
+  "points": 30.0,
+  "weight": 30,
+  "result": {
+    "metric": "PQ",
+    "value": 1.0,
+    "SQ": 1.0,
+    "RQ": 1.0,
+    "per_class": {
+      "road": {
+        "pq": 1.0,
+        "sq": 1.0,
+        "rq": 1.0,
+        "tp": 2,
+        "fp": 0,
+        "fn": 0
+      },
+      "building": {
+        "pq": 1.0,
+        "sq": 1.0,
+        "rq": 1.0,
+        "tp": 2,
+        "fp": 0,
+        "fn": 0
+      },
+      "truck": {
+        "pq": 1.0,
+        "sq": 1.0,
+        "rq": 1.0,
+        "tp": 4,
+        "fp": 0,
+        "fn": 0
+      },
+      "bus": {
+        "pq": 1.0,
+        "sq": 1.0,
+        "rq": 1.0,
+        "tp": 3,
+        "fp": 0,
+        "fn": 0
+      },
+      "sky": {
+        "pq": 1.0,
+        "sq": 1.0,
+        "rq": 1.0,
+        "tp": 2,
+        "fp": 0,
+        "fn": 0
+      },
+      "person": {
+        "pq": 1.0,
+        "sq": 1.0,
+        "rq": 1.0,
+        "tp": 9,
+        "fp": 0,
+        "fn": 0
+      },
+      "sidewalk": {
+        "pq": 1.0,
+        "sq": 1.0,
+        "rq": 1.0,
+        "tp": 2,
+        "fp": 0,
+        "fn": 0
+      },
+      "bicycle": {
+        "pq": 1.0,
+        "sq": 1.0,
+        "rq": 1.0,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0
+      },
+      "traffic light": {
+        "pq": 1.0,
+        "sq": 1.0,
+        "rq": 1.0,
+        "tp": 4,
+        "fp": 0,
+        "fn": 0
+      },
+      "motorcycle": {
+        "pq": 1.0,
+        "sq": 1.0,
+        "rq": 1.0,
+        "tp": 4,
+        "fp": 0,
+        "fn": 0
+      },
+      "car": {
+        "pq": 1.0,
+        "sq": 1.0,
+        "rq": 1.0,
+        "tp": 26,
+        "fp": 0,
+        "fn": 0
+      },
+      "vegetation": {
+        "pq": 1.0,
+        "sq": 1.0,
+        "rq": 1.0,
+        "tp": 2,
+        "fp": 0,
+        "fn": 0
+      }
+    }
+  },
+  "review_flags": [
+    "REVIEW_HIGH_AGREEMENT: metric 1.000 >= 0.95; check reference version and export provenance manually."
+  ]
+}
